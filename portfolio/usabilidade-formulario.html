@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estudo de caso: análise de usabilidade em formulários | Coisas da Aurileide</title>
+<meta name="description" content="Este é um estudo de caso feito voluntariamente por mim, sem nenhum envolvimento de qualquer empresa que possa ser identificada com o produto aqui descrito.">
+<link rel="icon" href="../assets/img/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+<header class="site-header"><div class="container bar"><a class="brand" href="../index.html"><img src="../assets/img/logo.png" alt="" width="40" height="36"><span>Coisas da Aurileide</span></a><nav class="site-nav" aria-label="Principal"><ul><li><a href="../index.html">home</a></li><li class="has-sub"><a href="index.html">portfólio</a><ul class="sub"><li><a href="ebook.html">E-book</a></li><li><a href="para-entidades.html">Para entidades</a></li><li><a href="storyboards.html">Storyboards</a></li><li><a href="usabilidade-formulario.html" aria-current="page">Usabilidade de formulário</a></li></ul></li><li><a href="../sobre.html">sobre</a></li><li><a href="../contato.html">contato</a></li><li class="lang"><a href="../en/work/form-usability.html" hreflang="en" lang="en">EN</a></li></ul></nav></div></header>
+<main id="conteudo" class="text-lg">
+<section class="band band-light cover">
+<div class="container">
+<img src="../assets/img/usability/capa-pt.png" alt="" width="1280" height="537" loading="eager">
+</div>
+</section>
+<section class="band band-light">
+<div class="container narrow">
+<h1 class="c-accent">Estudo de caso: análise de usabilidade em formulários</h1>
+<p>Este é um estudo de caso feito voluntariamente por mim, sem nenhum envolvimento de qualquer empresa que possa ser identificada com o produto aqui descrito.</p>
+</div>
+</section>
+<section class="band band-gray">
+<div class="container narrow">
+<h1>Contexto</h1>
+<p>Em 2021 solicitei um cartão em um banco digital brasileiro. Enfrentei demora no cadastro da proposta e o cartão não chegou no prazo estipulado.</p>
+<p>Recebi um e-mail avisando que não conseguiram entregar por problemas no meu endereço. Fui redirecionada a um TypeForm simpático e por lá enviei as informações.</p>
+<p>Ao proceder na sequência indicada pelo fluxo, me deparei com algumas questões de usabilidade que atrapalharam um pouco. A seguir, uma breve descrição dos problemas com indicação do grau de severidade e sugestão de melhoria. Espero ajudar a tornar ainda mais agradável a experiência para os usuários interessados.</p>
+</div>
+</section>
+<section class="band band-light">
+<div class="container narrow">
+<h1 class="c-accent">O processo</h1>
+<p>Usei uma metodologia que consistia em analisar o conteúdo do formulário de atualização de dados em busca de violações das heurísticas de usabilidade (Nielsen, 1985). Ao encontrar um problema, fazia um print da tela para detalhar o problema, pontuar o grau de severidade e apontar uma possível solução.</p>
+<p>Foram identificados três problemas que violaram duas heurísticas de usabilidade:</p>
+<p><strong>PROBLEMA 1 Endereço e complemento</strong></p>
+<p><strong>PROBLEMA 2 Limitação de caracteres</strong></p>
+<p><strong>PROBLEMA 3 Mensagem de confirmação</strong></p>
+</div>
+</section>
+<section class="band band-gray">
+<div class="container">
+<h1>Problema 1: Endereço e complemento</h1>
+</div>
+</section>
+<section class="band band-gray">
+<div class="container"><div class="grid cols-2">
+<div class="col">
+<img src="../assets/img/usability/usability-01.png" alt="Problema 1: Endereço e complemento" width="1280" height="936" loading="lazy">
+<p><strong>Problema: </strong>Quando digitamos endereços, espera-se que logo após o número da casa apareça o campo para o complemento. Neste formulário, isto não acontecia.</p>
+<p>O campo do número da casa é o quarto da lista. Depois dele vem o bairro, cidade, estado e somente no campo 8, ele pede pra informar mais detalhes.</p>
+<p>Isto quebra uma convenção e pode deixar a pessoa um pouco confusa.</p>
+</div>
+<div class="col">
+<img src="../assets/img/usability/usability-02.png" alt="Problema 1: Endereço e complemento (2)" width="1280" height="936" loading="lazy">
+<p><strong>Grau de severidade: 3</strong></p>
+<p><strong>Solução proposta:</strong> Posicionar o campo que pede mais detalhes do endereço (5) logo após o campo de número da casa (4).</p>
+</div>
+</div></div>
+</section>
+<section class="band band-light">
+<div class="container">
+<h1 class="c-accent">Problema 2: Limitação de caracteres</h1>
+</div>
+</section>
+<section class="band band-light">
+<div class="container"><div class="grid cols-2">
+<div class="col">
+<img src="../assets/img/usability/usability-03.png" alt="Problema 2: Limitação de caracteres" width="1280" height="1051" loading="lazy">
+<p><strong>Problema: </strong>Nos campos que pedem alguma digitação, há uma limitação de caracteres, que só é informada ao usuário depois que ele atinge a quantidade máxima.</p>
+<p>Não há uma informação prévia para que ele pense no que vai digitar.</p>
+<p>A quantidade máxima de caracteres do campo (30) é muito limitada.</p>
+</div>
+<div class="col">
+<img src="../assets/img/usability/usability-04.png" alt="Problema 2: Limitação de caracteres (2)" width="1280" height="831" loading="lazy">
+<p><strong>Grau de severidade:</strong> 4</p>
+<p>Não informar previamente qual o limite máximo de caracteres que o usuário pode digitar é uma violação da Heurística de Nielsen número 5: Prevenção de Erros.</p>
+<p><strong>Solução proposta:</strong> O melhor mesmo é não limitar a quantidade de caracteres. Mas, se for realmente necessário, aqui vão duas sugestões:</p>
+<ol><li>adicionar um contador de digitação para ajudar o usuário a entender que há uma limitação.<br></li><li>aumentar a quantidade máxima de caracteres para o dobro ou triplo.</li></ol>
+</div>
+</div></div>
+</section>
+<section class="band band-gray">
+<div class="container">
+<h1>Problema 3: Mensagem de confirmação</h1>
+</div>
+</section>
+<section class="band band-gray">
+<div class="container"><div class="grid cols-2">
+<div class="col">
+<img src="../assets/img/usability/usability-05.png" alt="Problema 3: Mensagem de confirmação" width="1280" height="1093" loading="lazy">
+<p><strong>Problema</strong>: A página de confirmação não apresentou um título para indicar o que estava acontecendo.<br></p>
+<p>A mensagem simpática estava desorganizada, e ainda informava que eu havia solicitado um cartão com outro nome.</p>
+<p>Isto gerou uma insegurança. Para quem eu mandei meus dados atualizados, mesmo?</p>
+<p>Conversando com algumas pessoas, descobri depois que se tratava do antigo nome de um produto similar da empresa e que a confusão pode ter ocorrido porque ainda estavam fazendo uma transição interna.</p>
+</div>
+<div class="col">
+<img src="../assets/img/usability/usability-06.png" alt="Problema 3: Mensagem de confirmação (2)" width="1280" height="1096" loading="lazy">
+<p><strong>Graus de severidade: 1 e 4</strong></p>
+<p>O nome da empresa e a marca devem ser consistentes em todas as peças de comunicação para transmitir confiança ao usuário. Trata-se da Heurística de Nielsen número 1: Consistência e padrões.</p>
+<p><strong>Solução proposta:</strong></p>
+<ol><li>Acrescentar um título;</li><li>Corrigir o nome do cartão;</li><li>Revisar o que deve ficar negrito, para enfatizar o que o usuário realmente precisa saber e não apenas palavras aleatórias;</li><li>Revisar o alinhamento do texto (à esquerda dá menos problemas) e a quebra de linhas. Os parágrafos também podem guiar a leitura.</li></ol>
+</div>
+</div></div>
+</section>
+<section class="band band-light">
+<div class="container narrow">
+<h1 class="c-accent">Conclusão</h1>
+<p>Ainda que esta seja uma análise voluntária, conduzida por uma usuária ansiosa por receber seu cartão, vale ressaltar a pertinência da iniciativa.</p>
+<p>Pequenos problemas de usabilidade, quando corrigidos, podem ter um grande impacto na experiência de uso das pessoas que desejam ter um cartão de crédito.</p>
+<p>Recomenda-se considerar o grau de severidade indicado em cada situação na hora de priorizar o <em>backlog</em>.</p>
+</div>
+</section>
+</main>
+<footer class="site-footer"><div class="container"><p><a href="mailto:aurileide@gmail.com">Gmail</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/aurileide/" target="_blank" rel="noopener">LinkedIn</a></p></div></footer>
+</body>
+</html>
